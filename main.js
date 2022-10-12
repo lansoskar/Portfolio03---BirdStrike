@@ -1,5 +1,3 @@
-console.log('connected')
-
 const ctx = document.querySelector('#chart_incidents').getContext('2d');
 const chart = new Chart(ctx, {
     type: 'bar',
