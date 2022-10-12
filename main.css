@@ -4,6 +4,22 @@ body {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
+body::-webkit-scrollbar {
+    width: 0.5em;
+
+}
+
+body::-webkit-scrollbar-track {
+    background: #363636;
+
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #811313;
+    border-radius: 20px;
+    border: 4px #811313;
+}
+
 
 @keyframes fadeInAnimation {
     0% {
@@ -26,13 +42,18 @@ h1 {
     font-weight: bold;
 }
 
-p {
+.textBox {
     max-width: 45%;
     font-size: 1.2em;
-    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 30px;
 }
-
-#chart {
+.average {
+    color: #3a7327;
+    font-weight: bold;
+}
+.chart {
     width: 50%;
     margin-bottom: 25px;
+
 }
