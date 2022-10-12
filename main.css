@@ -1,0 +1,38 @@
+body {
+    background-color: #aaaaa9;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#main {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #8c0029;
+    font-weight: bold;
+}
+
+p {
+    max-width: 45%;
+    font-size: 1.2em;
+    margin: auto;
+}
+
+#chart {
+    width: 50%;
+    margin-bottom: 20px;
+}
