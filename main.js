@@ -69,11 +69,7 @@ const chartMoney = new Chart(ctx2, {
             },
             title: {
                 display: true,
-                color: 'black',
                 text: '10 most expensive bird strike incident repairs',
-                font: {weight: 'bold'}
-
-
             }
         }
     }
